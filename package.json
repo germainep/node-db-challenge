@@ -5,7 +5,12 @@
   "repository": "git@github.com:/germainep/node-db-challenge.git",
   "author": "Germaine Pannell <me@germainep.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node sever.js"
+  },
   "dependencies": {
+    "express": "^4.17.1",
     "helmet": "^3.22.0",
     "knex": "^0.21.1",
     "sqlite3": "^4.2.0"
